@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: d_serv
+
+server:
+  port: 8765
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
